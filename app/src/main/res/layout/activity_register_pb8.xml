@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPB8">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="165dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="19dp"
+        android:text="Register"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/etRnumber8"
+        app:layout_constraintEnd_toEndOf="@+id/etRnumber8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etRnumber8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:hint="Enter Mobile Number"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/etRPassword8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+    <EditText
+        android:id="@+id/etRPassword8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/etRePassword8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRnumber8" />
+
+    <EditText
+        android:id="@+id/etRePassword8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:hint="Enter  Password Again"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegister8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRPassword8" />
+
+    <Button
+        android:id="@+id/btnRegister8"
+        android:layout_width="197dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="34dp"
+        android:text="Resgiter"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvLogin8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRePassword8" />
+
+    <TextView
+        android:id="@+id/tvLogin8"
+        android:layout_width="226dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="200dp"
+        android:text="Alread Have An Account"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
